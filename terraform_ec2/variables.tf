@@ -4,6 +4,7 @@ variable "region" {
 }
 
 # userprofile variable
-variable "aws_profile" {
+
+variable "profile" {
   type = string # Welcher Datentyp ist die Variable?
 }

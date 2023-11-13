@@ -10,8 +10,16 @@ terraform {
 }
 
 provider "aws" {
-  region = var.region # Diese Terraform variable definieren wir im nächsten Schritt
-  profile = var.aws_profile # Diese Terraform variable definieren wir im nächsten Schritt
+region = var.region # Diese Terraform variable definieren wir im nächsten Schritt
+profile = "598990243446_Student" # BITTE DEIN AWS PROFILE EINTRAGEN
 }
+
+
+
+
+#provider "aws" {
+ # region = var.region # Diese Terraform variable definieren wir im nächsten Schritt
+  #profile = var.profile # Diese Terraform variable definieren wir im nächsten Schritt
+#}
 
 
